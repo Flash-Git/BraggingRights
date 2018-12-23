@@ -17,12 +17,17 @@ body {
   min-height: calc(100vh - 94.58px);
 }
 
-.footer {
-
+.main h1, p {
+  color: whitesmoke;
 }
 
-.remove-btn {
-  margin-right: 0.5rem;
+.landing {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer {
+
 }
 
 /*

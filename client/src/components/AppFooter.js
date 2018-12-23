@@ -8,8 +8,8 @@ import {
   Container
 } from 'reactstrap';
 
-class AppFooter extends Component{
-  render() {
+class AppFooter extends Component {
+  render(){
     return(
       <Navbar dark color="dark" className="bottom">
         <Container>
