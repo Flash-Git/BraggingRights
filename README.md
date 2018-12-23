@@ -1,4 +1,4 @@
-#BRAGGING RIGHTS
+# BRAGGING RIGHTS
 
 Development of my personal site.
 
