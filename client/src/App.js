@@ -19,7 +19,7 @@ class App extends Component {
           <Container className="main">
             <Landing />
           </Container>
-          <footer className="footer">
+          <footer>
             <AppFooter />
           </footer>
         </div>
