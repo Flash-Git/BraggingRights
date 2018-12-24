@@ -6,7 +6,9 @@ import {
 class Landing extends Component {
   render(){
     return(
-      <Container style={{margin:0, padding:0}}>
+      <Container
+        style={{ padding: "0", margin: "0" }}
+      >
         <div className="section-landing">
           <h1>h1</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius itaque quia eos pariatur, suscipit necessitatibus accusantium totam, veritatis cupiditate vitae cum consequuntur eum illo maxime molestias nobis sint adipisci nesciunt.</p>
