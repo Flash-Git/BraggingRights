@@ -13,10 +13,10 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Provider store={store}>
-        <div className="App">
-          <AppNavbar />
-          <Container className="main">
+      <Provider store={store} style={{margin:0, padding:0}}>
+        <div className="App" style={{margin:0, padding:0}}>
+          <AppNavbar style={{margin:0, padding:0}} />
+          <Container className="main" style={{margin:0, padding:0}}>
             <Landing />
           </Container>
           <footer>
