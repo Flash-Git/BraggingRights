@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import AppFooter from './components/AppFooter';
+import AppNavbar from './components/AppNavbar';
 import Landing from './components/Landing';
+import AppFooter from './components/AppFooter';
 
 import { Container } from "reactstrap"
 import { Provider } from "react-redux";
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div className="App">
+            <AppNavbar />
           <Container className="main">
             <Landing />
           </Container>
