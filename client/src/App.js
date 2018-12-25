@@ -12,7 +12,7 @@ import './App.css';
 
 class App extends Component {
   render() {
-    return (
+    return(
       <Provider store={store}>
         <div className="App">
           <AppNavbar />

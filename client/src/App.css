@@ -23,14 +23,11 @@ body {
 .section-landing {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-image:url("./res/pexel-city.jpeg");
+  background-image: url("./res/pexel-city.jpeg");
   background-size: cover;
   background-position: center;
   width: 100%;/*100vw adds width past screen */
   height: 100vh;
-}
-.section-landing  {
-
 }
 
 .section-footer {
