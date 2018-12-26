@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 class App extends Component {
-  render() {
+  render(){
     return(
       <Provider store={store}>
         <div className="App">
