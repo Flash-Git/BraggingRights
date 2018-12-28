@@ -5,7 +5,7 @@ const path = require("path");
 const app = express();
 
 //Bodyparser middleware
-app.use(express.json());//todo can use express?
+app.use(express.json());
 
 //DB config
 const db = require("./config/keys").mongoURI;
