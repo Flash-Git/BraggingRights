@@ -64,4 +64,4 @@ config/keys.js
 
 .vscode/
 
-client/res/
+client/src/res/
