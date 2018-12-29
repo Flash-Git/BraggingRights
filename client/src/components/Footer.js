@@ -8,7 +8,7 @@ import {
   Container
 } from 'reactstrap';
 
-class AppFooter extends Component {
+class Footer extends Component {
   render(){
     return(
       <Navbar dark color="dark" className="section-footer">
@@ -28,4 +28,4 @@ class AppFooter extends Component {
   }
 }
 
-export default AppFooter;
+export default Footer;
