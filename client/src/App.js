@@ -8,6 +8,10 @@ import { Provider } from "react-redux";
 import store from "./store";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import './App.css';
 
 class App extends Component {
@@ -17,7 +21,10 @@ class App extends Component {
         <div className="App">
           <NavbarTop />
           <Container className="main" style={{ padding: "0", margin: "0" }}>
-            <Landing />
+            <header className="showcase">
+              <Landing />
+              {/* <FontAwesomeIcon icon={faHome} /> */}
+            </header>
           </Container>
           <footer>
             <Footer />
