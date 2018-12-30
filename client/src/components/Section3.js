@@ -11,14 +11,15 @@ class Section3 extends Component {
       <Container
         style={{ padding: "0", margin: "0" }}
       >
-        <section className="section-text grid-3">
+      <div className="section" id="section3">
+        <section className="section-text">
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
         </section>
-        <section className="section3">
-          <div className="title">
+        <section className="section-img">
+          <div className="section-imgtext">
             <h2>
               <FontAwesomeIcon icon={faChess} />
               &nbsp;Cunt&nbsp;
@@ -26,6 +27,7 @@ class Section3 extends Component {
             </h2>
           </div>
         </section>
+      </div>
       </Container>
     );
   }

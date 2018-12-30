@@ -13,20 +13,30 @@ body, html {
 }
 
 .main {
-}
-
-.main {
   color: whitesmoke;
 }
 
 /*
 * Sections
 */
+#section0 .section-img {
+  background-image: url("./res/pexel-code0.jpg");
+}
+#section1 .section-img {
+  background-image: url("./res/pexel-code1.jpg");
+}
+#section2 .section-img {
+  background-image: url("./res/pexel-code2.jpg");
+}
+#section3 .section-img {
+  background-image: url("./res/pexel-code3.jpg");
+}
+
 .section-navbar {
 
 }
 
-.section-landing {
+#section-landing {
   padding: 3rem 5rem;
   padding-top: 5rem;
   text-align: center;
@@ -40,14 +50,30 @@ body, html {
   height: 100vh;
 }
 
-.text{
-  padding-right: 10rem;
-  padding-left: 10rem;
+.section-text {
+  min-height: 10rem;
+  text-align: center;
+  padding: 3rem;
+  padding-top: 3.7rem;
+  line-height: 1.2rem;
 }
 
-/* Used flex on parent to center because width:100% goes over 100% */
-.title {
-  color: #000000;
+/* Used flex on parent to center because width:100% goes over 100%*/
+.section-img {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;/*100vw adds width past screen */
+  opacity: 0.70;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section-imgtext {
   text-align: center;
   letter-spacing: 0.5rem;
   text-transform: uppercase;
@@ -59,47 +85,13 @@ body, html {
   color: #ffffff;
 }
 
-.section-text {
-  min-height: 10rem;
-  text-align: center;
-  padding: 3rem;
-  padding-top: 3.7rem;
-
-  line-height: 1.2rem;
-}
-
-.section1, .section2, .section3, .section4 {
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;/*100vw adds width past screen */
-  opacity: 0.75;
-  min-height: 10rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.section1 {
-  background-image: url("./res/pexel-code1.jpg");
-}
-
-.section2 {
-  background-image: url("./res/pexel-code3.jpg");
-}
-
-.section3 {
-  background-image: url("./res/pexel-code5.jpg");
-}
-
-.section4 {
-  background-image: url("./res/pexel-code4.jpg");
-}
-
 .section-footer {
 
+}
+
+.text {
+  padding-right: 10rem;
+  padding-left: 10rem;
 }
 
 /* @media(max-width:568px){
