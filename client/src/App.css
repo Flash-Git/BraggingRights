@@ -42,12 +42,23 @@ body, html {
   text-align: center;
   line-height: 2.4rem;
 
-  background-image: url("./res/pexel-code2.jpg");
+  background-image: url("./res/pexel-code5.jpg");
   background-size: cover;
   background-position: center;
 
   width: 100%;/*100vw adds width past screen */
   height: 100vh;
+}
+
+#logo {
+  background-image: url("./res/logoA.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 1rem;
+  background-size: 5rem;
+  height: 5rem;
+  text-align: center;
+  justify-content: center;
 }
 
 .section-text {
