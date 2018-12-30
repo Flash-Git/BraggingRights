@@ -13,7 +13,6 @@ class Landing extends Component {
       >
         <div id="section0">
           <div id="section-landing">
-            <div id="logo"></div>
             <div className="section-imgtext">
               <h1>Welcome to QPT</h1>
             </div>

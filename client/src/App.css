@@ -51,14 +51,13 @@ body, html {
 }
 
 #logo {
+  position: absolute;
   background-image: url("./res/logoA.png");
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 1rem;
   background-size: 5rem;
-  height: 5rem;
-  text-align: center;
-  justify-content: center;
+  min-height: 5rem;
+  min-width: 5rem;
 }
 
 .section-text {

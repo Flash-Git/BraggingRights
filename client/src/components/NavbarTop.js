@@ -25,7 +25,7 @@ class NavbarTop extends Component {
     return(
       <Navbar color="dark" dark expand="sm" className="mn-5 fixed-top section-navbar">
         <Container>
-          <NavbarBrand href="/">Bragging Rights</NavbarBrand>
+          <NavbarBrand href="/" id="logo"></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
