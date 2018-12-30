@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
   Container
-} from 'reactstrap';
-
+} from "reactstrap";
 import { faBellSlash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 class Landing extends Component {
   render(){
     return(
@@ -18,8 +18,8 @@ class Landing extends Component {
               <h1>Welcome to QPT</h1>
             </div>
             <div className="text">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, earum ipsam culpa et sunt voluptatem sed nisi? Laboriosam a ipsam tempora eveniet maiores enim maxime tenetur ratione saepe, aperiam dolorum eligendi suscipit quas vitae cum tempore, odit magnam at perspiciatis debitis neque necessitatibus, corporis soluta! Deserunt ipsa ullam aliquid excepturi.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, earum ipsam culpa et sunt voluptatem sed nisi? Laboriosam a ipsam tempora eveniet maiores enim maxime tenetur ratione saepe, aperiam dolorum eligendi suscipit quas vitae cum tempore, odit magnam at perspiciatis debitis neque necessitatibus, corporis soluta! Deserunt ipsa ullam aliquid excepturi.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae quis aperiam perferendis porro aut, ullam nobis aspernatur obcaecati incidunt.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae quis aperiam perferendis porro aut, ullam nobis aspernatur obcaecati incidunt.</p>
             </div>
           </div>
           <section className="section-img">
