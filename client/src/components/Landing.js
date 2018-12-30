@@ -3,6 +3,8 @@ import {
   Container
 } from 'reactstrap';
 
+import { faBellSlash } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class Landing extends Component {
   render(){
     return(
@@ -10,17 +12,24 @@ class Landing extends Component {
         style={{ padding: "0", margin: "0" }}
       >
         <div className="section-landing">
-          <h1>h1</h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius itaque quia eos pariatur, suscipit necessitatibus accusantium totam, veritatis cupiditate vitae cum consequuntur eum illo maxime molestias nobis sint adipisci nesciunt.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius itaque quia eos pariatur, suscipit necessitatibus accusantium totam, veritatis cupiditate vitae cum consequuntur eum illo maxime molestias nobis sint adipisci nesciunt.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius itaque quia eos pariatur, suscipit necessitatibus accusantium totam, veritatis cupiditate vitae cum consequuntur eum illo maxime molestias nobis sint adipisci nesciunt.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius itaque quia eos pariatur, suscipit necessitatibus accusantium totam, veritatis cupiditate vitae cum consequuntur eum illo maxime molestias nobis sint adipisci nesciunt.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius itaque quia eos pariatur, suscipit necessitatibus accusantium totam, veritatis cupiditate vitae cum consequuntur eum illo maxime molestias nobis sint adipisci nesciunt.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius itaque quia eos pariatur, suscipit necessitatibus accusantium totam, veritatis cupiditate vitae cum consequuntur eum illo maxime molestias nobis sint adipisci nesciunt.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius itaque quia eos pariatur, suscipit necessitatibus accusantium totam, veritatis cupiditate vitae cum consequuntur eum illo maxime molestias nobis sint adipisci nesciunt.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius itaque quia eos pariatur, suscipit necessitatibus accusantium totam, veritatis cupiditate vitae cum consequuntur eum illo maxime molestias nobis sint adipisci nesciunt.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius itaque quia eos pariatur, suscipit necessitatibus accusantium totam, veritatis cupiditate vitae cum consequuntur eum illo maxime molestias nobis sint adipisci nesciunt.</p>
+          <img src="logo.png" classname="logo" alt="QPT"></img>
+          <div className="title">
+            <h1>Welcome to QPT</h1>
+          </div>
+          <div className="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, earum ipsam culpa et sunt voluptatem sed nisi? Laboriosam a ipsam tempora eveniet maiores enim maxime tenetur ratione saepe, aperiam dolorum eligendi suscipit quas vitae cum tempore, odit magnam at perspiciatis debitis neque necessitatibus, corporis soluta! Deserunt ipsa ullam aliquid excepturi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, earum ipsam culpa et sunt voluptatem sed nisi? Laboriosam a ipsam tempora eveniet maiores enim maxime tenetur ratione saepe, aperiam dolorum eligendi suscipit quas vitae cum tempore, odit magnam at perspiciatis debitis neque necessitatibus, corporis soluta! Deserunt ipsa ullam aliquid excepturi.</p>
+          </div>
         </div>
+        <section className="section4">
+          <div className="title">
+            <h2>
+              <FontAwesomeIcon icon={faBellSlash} />
+              &nbsp;Cunt&nbsp;
+              <FontAwesomeIcon icon={faBellSlash} />
+            </h2>
+          </div>
+        </section>
       </Container>
     );
   }
