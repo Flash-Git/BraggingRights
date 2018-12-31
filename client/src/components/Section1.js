@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {
   Container
 } from "reactstrap";
-import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
+import { faCube, faCubes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Section1 extends Component {
@@ -15,16 +15,23 @@ class Section1 extends Component {
           <div className="anchor" id="section-1"></div>
           <section className="section-img">
             <div className="section-imgtext">
-              <h2>
-                <FontAwesomeIcon icon={faAddressBook} />
-                &nbsp;Cunt&nbsp;
-                <FontAwesomeIcon icon={faAddressBook} />
-              </h2>
+              <a href="#section-1">
+                <h2>
+                  <FontAwesomeIcon icon={
+                    faCube
+                    //faCubes
+                  } />
+                  &nbsp;Blockchain&nbsp;
+                  <FontAwesomeIcon icon={
+                    faCube
+                    //faCubes
+                  } />
+                </h2>
+              </a>
             </div>
           </section>
           <section className="section-text">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
+            <p>Blockchain</p>
           </section>
         </div>
       </Container>

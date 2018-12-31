@@ -16,11 +16,13 @@ class Section3 extends Component {
           <div className="anchor" id="section-3"></div>
           <section className="section-img">
             <div className="section-imgtext">
-              <h2>
-                <FontAwesomeIcon icon={faChess} />
-                &nbsp;Cunt&nbsp;
-                <FontAwesomeIcon icon={faChess} />
-              </h2>
+              <a href="#section-3">
+                <h2>
+                  <FontAwesomeIcon icon={faChess} />
+                  &nbsp;Game&nbsp;
+                  <FontAwesomeIcon icon={faChess} />
+                </h2>
+              </a>
             </div>
           </section>
           <section className="section-text">
@@ -31,11 +33,13 @@ class Section3 extends Component {
           </section>
           <section className="section-img">
             <div className="section-imgtext">
-              <h2>
-                <FontAwesomeIcon icon={faBellSlash} />
-                &nbsp;Cunt&nbsp;
-                <FontAwesomeIcon icon={faBellSlash} />
-              </h2>
+              <a href="#section-4">
+                <h2>
+                  <FontAwesomeIcon icon={faBellSlash} />
+                  &nbsp;Smth Else&nbsp;
+                  <FontAwesomeIcon icon={faBellSlash} />
+                </h2>
+              </a>
             </div>
           </section>
         </div>

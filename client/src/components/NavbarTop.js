@@ -9,6 +9,8 @@ import {
   NavLink,
   Container
 } from "reactstrap";
+import { faCube, faDesktop, faChess } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class NavbarTop extends Component {
   state = {
@@ -30,13 +32,22 @@ class NavbarTop extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#section-1">Section 1</NavLink>
+                <NavLink href="#section-1">
+                  <FontAwesomeIcon icon={faCube} />
+                  &nbsp;Blockchain
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#section-2">Section 2</NavLink>
+                <NavLink href="#section-2">
+                  <FontAwesomeIcon icon={faDesktop} />
+                  &nbsp;Web
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#section-3">Section 3</NavLink>
+                <NavLink href="#section-3">
+                  <FontAwesomeIcon icon={faChess} />
+                  &nbsp;Game
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>

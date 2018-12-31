@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {
   Container
 } from "reactstrap";
-import { faAnchor } from "@fortawesome/free-solid-svg-icons";
+import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Section2 extends Component {
@@ -15,11 +15,13 @@ class Section2 extends Component {
           <div className="anchor" id="section-2"></div>
           <section className="section-img">
             <div className="section-imgtext">
-              <h2>
-                <FontAwesomeIcon icon={faAnchor} />
-                &nbsp;Cunt&nbsp;
-                <FontAwesomeIcon icon={faAnchor} />
-              </h2>
+              <a href="#section-2">
+                <h2>
+                  <FontAwesomeIcon icon={faDesktop} />
+                  &nbsp;Web&nbsp;
+                  <FontAwesomeIcon icon={faDesktop} />
+                </h2>
+              </a>
             </div>
           </section>
           <section className="section-text">

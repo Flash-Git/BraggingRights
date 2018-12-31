@@ -12,8 +12,12 @@ body, html {
   max-width: 100%;/*Overrides bootstrap @media*/
 }
 
-.main {
+.main, a:link, a:visited, a:hover, a:active {
   color: whitesmoke;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
 }
 
 /*

@@ -19,7 +19,7 @@ class Footer extends Component {
               <NavLink href="https://github.com/flash-git">Github</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Support</NavLink>
+              <NavLink href="/">Business Inquiries</NavLink>
             </NavItem>
           </Nav>
         </Container>
