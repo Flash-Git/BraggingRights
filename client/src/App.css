@@ -16,13 +16,6 @@ body, html {
   color: whitesmoke;
 }
 
-.anchor {
-  display: block;
-  position: relative;
-  top: -59.72px;
-  visibility: hidden;
-}
-
 /*
 * Sections
 */
@@ -70,6 +63,13 @@ body, html {
 .section-landingtext {
   padding-right: 10rem;
   padding-left: 10rem;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -59.72px;
+  visibility: hidden;
 }
 
 .section-text {
