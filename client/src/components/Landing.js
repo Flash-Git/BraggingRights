@@ -9,8 +9,8 @@ class Landing extends Component {
       <Container
         style={{ padding: "0", margin: "0" }}
       >
-        <div id="section0">
-          <div id="section-landing">
+        <div id="section-landing">
+          <div className="section" id="section0">
             <div className="section-imgtext">
               <h1>Welcome to QPT</h1>
             </div>
