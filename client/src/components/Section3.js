@@ -4,6 +4,7 @@ import {
 } from "reactstrap";
 import { faChess } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBellSlash } from "@fortawesome/free-solid-svg-icons";
 
 class Section3 extends Component {
   render(){
@@ -11,23 +12,33 @@ class Section3 extends Component {
       <Container
         style={{ padding: "0", margin: "0" }}
       >
-      <div className="section" id="section3">
-        <section className="section-text">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
-        </section>
-        <section className="section-img">
-          <div className="section-imgtext">
-            <h2>
-              <FontAwesomeIcon icon={faChess} />
-              &nbsp;Cunt&nbsp;
-              <FontAwesomeIcon icon={faChess} />
-            </h2>
-          </div>
-        </section>
-      </div>
+        <div className="section" id="section3">
+          <div className="anchor" id="section-3"></div>
+          <section className="section-img">
+            <div className="section-imgtext">
+              <h2>
+                <FontAwesomeIcon icon={faChess} />
+                &nbsp;Cunt&nbsp;
+                <FontAwesomeIcon icon={faChess} />
+              </h2>
+            </div>
+          </section>
+          <section className="section-text">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
+          </section>
+          <section className="section-img">
+            <div className="section-imgtext">
+              <h2>
+                <FontAwesomeIcon icon={faBellSlash} />
+                &nbsp;Cunt&nbsp;
+                <FontAwesomeIcon icon={faBellSlash} />
+              </h2>
+            </div>
+          </section>
+        </div>
       </Container>
     );
   }

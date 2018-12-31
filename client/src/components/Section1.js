@@ -12,10 +12,7 @@ class Section1 extends Component {
         style={{ padding: "0", margin: "0" }}
       >
         <div className="section" id="section1">
-          <section className="section-text">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
-          </section>
+          <div className="anchor" id="section-1"></div>
           <section className="section-img">
             <div className="section-imgtext">
               <h2>
@@ -24,6 +21,10 @@ class Section1 extends Component {
                 <FontAwesomeIcon icon={faAddressBook} />
               </h2>
             </div>
+          </section>
+          <section className="section-text">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
           </section>
         </div>
       </Container>

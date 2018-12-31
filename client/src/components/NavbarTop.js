@@ -30,13 +30,13 @@ class NavbarTop extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="https://github.com/flash-git">Github</NavLink>
+                <NavLink href="#section-1">Section 1</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://twitter.com/FlashyQpt">Twitter</NavLink>
+                <NavLink href="#section-2">Section 2</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://reddit.com/u/FlashyQpt">Reddit</NavLink>
+                <NavLink href="#section-3">Section 3</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

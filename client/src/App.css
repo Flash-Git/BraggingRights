@@ -16,6 +16,13 @@ body, html {
   color: whitesmoke;
 }
 
+.anchor {
+  display: block;
+  position: relative;
+  top: -59.72px;
+  visibility: hidden;
+}
+
 /*
 * Sections
 */
@@ -60,6 +67,11 @@ body, html {
   min-width: 5rem;
 }
 
+.section-landingtext {
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
 .section-text {
   min-height: 10rem;
   text-align: center;
@@ -99,13 +111,8 @@ body, html {
 
 }
 
-.text {
-  padding-right: 10rem;
-  padding-left: 10rem;
-}
-
-/* @media(max-width:568px){
+@media(max-width:568px){
 .section1, .section2, .section3 {
     background-attachment: scroll;
   }
-} */
+}
