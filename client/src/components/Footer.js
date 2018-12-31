@@ -6,7 +6,7 @@ import {
   NavLink,
   Container
 } from "reactstrap";
-import { faGithub, faEthereum, faBitcoin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faTwitter, faEthereum, faBitcoin, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -27,6 +27,22 @@ class Footer extends Component {
                   <NavLink href="https://github.com/flash-git">
                     <FontAwesomeIcon icon={faGithub} />
                     &nbsp;Github
+                  </NavLink>
+                </NavItem>
+              </div>
+              <div className="youtube">
+                <NavItem>
+                  <NavLink href="https://youtube.com/">
+                    <FontAwesomeIcon icon={faYoutube} />
+                    &nbsp;Youtube
+                  </NavLink>
+                </NavItem>
+              </div>
+              <div className="twitter">
+                <NavItem>
+                  <NavLink href="https://twitter.com/flashyqpt">
+                    <FontAwesomeIcon icon={faTwitter} />
+                    &nbsp;Twitter
                   </NavLink>
                 </NavItem>
               </div>

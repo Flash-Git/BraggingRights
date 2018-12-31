@@ -6,6 +6,7 @@ body, html {
   font-size: 1em;
   font-weight: 400;
   line-height: 1.8em;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -160,25 +161,32 @@ a:hover, a:active {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
   padding-right: 3rem;
   padding-left: 3rem;
-  padding-bottom: 1rem;
 }
 
 .links {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 30rem;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem; 
 }
 
 .addresses {
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 30rem;
+  margin-left: 2rem;
+  padding-bottom: 0.2rem;
 }
 
-.github, .inquiries, .ethereum, .bitcoin {
+.github, .inquiries, .ethereum, .bitcoin, .youtube, .twitter {
   width: 12rem;
 }
 

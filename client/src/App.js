@@ -23,10 +23,10 @@ class App extends Component {
           <Container className="main" style={{ padding: "0", margin: "0" }}>
             <header className="showcase">
               <Landing />
+            </header>
               <Section1 />
               <Section2 />
               <Section3 />
-            </header>
           </Container>
           <footer>
             <Footer />
