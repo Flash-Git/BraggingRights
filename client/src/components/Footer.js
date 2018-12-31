@@ -1,29 +1,66 @@
 import React, { Component } from "react";
 import {
   Navbar,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
   Container
 } from "reactstrap";
+import { faGithub, faEthereum, faBitcoin } from "@fortawesome/free-brands-svg-icons";
+import { faAt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Footer extends Component {
   render(){
     return(
-      <Navbar dark color="dark" className="section-footer">
-        <Container>
-          <NavbarBrand href="/">Footer</NavbarBrand>
-          <Nav className="ml-auto" navbar>
-            <NavItem>
-              <NavLink href="https://github.com/flash-git">Github</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/">Business Inquiries</NavLink>
-            </NavItem>
+      <Container
+        style={{ padding: "0", margin: "0" }}
+      >
+        <Navbar dark color="dark">
+          <Nav navbar
+            style={{ width:"100%", height:"100%"}}
+          >
+          <div className="section-footer">
+            <div className="links">
+              <div className="github">
+                <NavItem>
+                  <NavLink href="https://github.com/flash-git">
+                    <FontAwesomeIcon icon={faGithub} />
+                    &nbsp;Github
+                  </NavLink>
+                </NavItem>
+              </div>
+              <div className="inquiries">
+                <NavItem>
+                  <NavLink href="/">
+                    <FontAwesomeIcon icon={faAt} />
+                    &nbsp;Business Inquiries
+                  </NavLink>
+                </NavItem>
+              </div>
+            </div>
+            <div className="addresses">
+              <div className="ethereum">
+                  <NavItem>
+                    <NavLink href="/">
+                      <FontAwesomeIcon icon={faEthereum} />
+                      &nbsp;Ethereum Address
+                    </NavLink>
+                  </NavItem>
+                </div>
+                <div className="bitcoin">
+                  <NavItem>
+                    <NavLink href="/">
+                      <FontAwesomeIcon icon={faBitcoin} />
+                      &nbsp;Bitcoin Address
+                    </NavLink>
+                  </NavItem>
+                </div>
+              </div>
+            </div>
           </Nav>
-        </Container>
-      </Navbar>
+        </Navbar>
+      </Container>
     );
   }
 }

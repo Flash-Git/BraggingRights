@@ -15,8 +15,6 @@ class Landing extends Component {
               <h1>Welcome to QPT</h1>
             </div>
             <div className="section-landingtext">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae quis aperiam perferendis porro aut, ullam nobis aspernatur obcaecati incidunt.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae quis aperiam perferendis porro aut, ullam nobis aspernatur obcaecati incidunt.</p>
             </div>
           </div>
         </div>

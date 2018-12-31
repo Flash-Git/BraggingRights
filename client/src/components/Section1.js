@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {
   Container
 } from "reactstrap";
-import { faCube, faCubes } from "@fortawesome/free-solid-svg-icons";
+import { faCube/*, faCubes*/ } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Section1 extends Component {
@@ -31,7 +31,12 @@ class Section1 extends Component {
             </div>
           </section>
           <section className="section-text">
-            <p>Blockchain</p>
+            <div className="first">
+              <p>Blockchain</p>            
+            </div>
+            <div className="second">
+              <p>Blockchain</p>
+            </div>
           </section>
         </div>
       </Container>
