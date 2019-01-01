@@ -32,7 +32,7 @@ class Section1 extends Component {
           </section>
           <section className="section-text">
             <div className="first">
-              <p>Blockchain</p>            
+              <p>Blockchain</p>
             </div>
             <div className="second">
               <p>Blockchain</p>

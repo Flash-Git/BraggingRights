@@ -69,7 +69,7 @@ a:hover, a:active {
 
 #logo {
   position: absolute;
-  top: -5px;
+  top: -6px;
   background-image: url("./res/logoA.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -93,9 +93,6 @@ a:hover, a:active {
     padding-left: 5rem;
     padding-right: 5rem;
   }
-}
-
-.section {
 }
 
 #section1 .section-text {

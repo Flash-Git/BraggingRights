@@ -24,9 +24,9 @@ class App extends Component {
             <header className="showcase">
               <Landing />
             </header>
-              <Section1 />
-              <Section2 />
-              <Section3 />
+            <Section1 />
+            <Section2 />
+            <Section3 />
           </Container>
           <footer>
             <Footer />
