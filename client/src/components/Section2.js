@@ -26,13 +26,15 @@ class Section2 extends Component {
           </section>
           <section className="section-text">
             <div className="first">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores fuga nostrum debitis exercitationem cumque dolorem molestias asperiores eveniet facilis! A velit, ullam tempora veritatis reprehenderit officia error deleniti quas animi.</p>
+              <p>IMAGE OF THIS SITE</p>
+              <p>IMAGE OF ANOTHER IMPLEMENTATION</p>
             </div>
             <div className="second">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorem velit iusto enim modi nesciunt veritatis adipisci inventore quod recusandae.</p>
+              <p>It's not possible for one person to know it all but I'm now comfortable that I can quickly pick up whatever is required for a job.</p>
             </div>
             <div className="third">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, labore repellendus. Assumenda placeat sapiente exercitationem nostrum expedita, similique, voluptates ratione distinctio blanditiis aliquid quidem officia harum ipsa. Voluptate esse, hic consequuntur fugit porro praesentium enim sed tempora nulla perferendis deleniti vel debitis quam corrupti. Esse quisquam laborum aut perspiciatis quod.</p>
+              <p>I put off learning more than the very basics for years. When I told people of the projects I've worked on, console outputs clearly wasn't what they had in mind.</p>
+              <p>Learning web develoment was a very different experience to learning anything related to blockchains. The abundance of tech stacks, libraries and corresponding resources was quite daunting. I hate making uninformed decisions so choosing what to focus on is what took a majority of my time</p>
             </div>
           </section>
         </div>

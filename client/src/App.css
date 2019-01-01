@@ -96,8 +96,8 @@ a:hover, a:active {
 
 @media(min-width:700px){
   #section0 .section-imgtext {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 
@@ -109,7 +109,7 @@ a:hover, a:active {
 }
 
 #section1 .section-text .first {
-  max-width: 16rem;
+  max-width: 20rem;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -117,7 +117,7 @@ a:hover, a:active {
 }
 
 #section1 .section-text .second {
-  max-width: 16rem;
+  max-width: 20rem;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -125,12 +125,12 @@ a:hover, a:active {
 }
 
 #section1 .section-text > .first {
-  max-width: 32rem;
+  max-width: 28rem;
   width: auto;
 }
 
 #section1 .section-text > .second {
-  max-width: 32rem;
+  max-width: 40rem;
   flex-direction: row;
   width: auto;
 }
@@ -145,6 +145,8 @@ a:hover, a:active {
   grid-template-rows: auto;
   min-height: 25rem;
   align-content: space-around;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 @media(min-width:700px) {
@@ -163,14 +165,14 @@ a:hover, a:active {
   #section2 .section-text .third{
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    padding: 2rem;
+    padding: 1rem;
   }
 }
 
 .section-text {
   min-height: 10rem;
   text-align: center;
-  padding: 3rem;
+  padding: 2rem;
   padding-top: 3.7rem;
   line-height: 1.2rem;
 }
@@ -209,8 +211,8 @@ a:hover, a:active {
 
 @media(max-width:480px) {
   .section-imgtext{
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
   }
 }
 

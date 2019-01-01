@@ -32,7 +32,7 @@ class Section1 extends Component {
           </section>
           <section className="section-text">
             <div className="first">
-              <h4>Uses</h4>
+              <h3>Uses</h3>
               <p>I have a very hands on approach to web3, staying up to date on the web3 landscape</p>
             </div>
             <div className="second">
