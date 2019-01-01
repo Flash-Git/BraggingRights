@@ -19,7 +19,7 @@ class Section3 extends Component {
               <a href="#section-3">
                 <h2>
                   <FontAwesomeIcon icon={faChess} />
-                  &nbsp;Game&nbsp;
+                  &nbsp;Game Dev&nbsp;
                   <FontAwesomeIcon icon={faChess} />
                 </h2>
               </a>

@@ -88,6 +88,12 @@ a:hover, a:active {
   visibility: hidden;
 }
 
+.first, .second {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 @media(min-width:700px){
   #section0 .section-imgtext {
     padding-left: 5rem;
@@ -99,6 +105,38 @@ a:hover, a:active {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-bottom: 2.5rem;
+}
+
+#section1 .section-text .first {
+  max-width: 16rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 0.5rem;
+}
+
+#section1 .section-text .second {
+  max-width: 16rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 0.5rem;
+}
+
+#section1 .section-text > .first {
+  max-width: 32rem;
+  width: auto;
+}
+
+#section1 .section-text > .second {
+  max-width: 32rem;
+  flex-direction: row;
+  width: auto;
+}
+
+#section1 .section-text .first > h1, h2, h3, h4 {
+  width: 100%;
 }
 
 #section2 .section-text {
@@ -150,6 +188,7 @@ a:hover, a:active {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  max-width: 100%;
 }
 
 .section-imgtext {
@@ -165,6 +204,14 @@ a:hover, a:active {
   color: #ffffff;
   box-shadow: 10px 0px 10px rgba(255,255,255,0.02),
 	-10px 0px 10px rgba(255,255,255,0.02);
+  max-width: 100%;
+}
+
+@media(max-width:480px) {
+  .section-imgtext{
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 .section-footer {
@@ -183,33 +230,32 @@ a:hover, a:active {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 26rem;
+  max-width: 26rem;
+  min-width: 26rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
-.links {
-  margin-bottom: 0.5rem; 
-}
-
-.addresses {
-  padding-bottom: 0.2rem;
-}
-
 @media(max-width:600px) {
-  .section-footer .links, .addresses{
-    border: solid;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: auto;
-    padding-left: auto;
+  .section-footer, .links, .addresses{
+    min-width: 0;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
+
+  .links {
+    margin-bottom: 0.5rem; 
+  }
+
+  .addresses {
+    padding-bottom: 0.2rem;
+  }
+
   .github, .inquiries, .ethereum, .bitcoin, .youtube, .twitter {
-    width: auto;
-  }
+      width: 10rem;
+    }
 }
 
-.github, .inquiries, .ethereum, .bitcoin, .youtube, .twitter {
-  width: 10rem;
+.github, .inquiries, .ethereum, .bitcoin, .youtube, .twitter{
+  width: 12rem;
 }

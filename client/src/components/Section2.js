@@ -18,7 +18,7 @@ class Section2 extends Component {
               <a href="#section-2">
                 <h2>
                   <FontAwesomeIcon icon={faDesktop} />
-                  &nbsp;Web&nbsp;
+                  &nbsp;Web Dev&nbsp;
                   <FontAwesomeIcon icon={faDesktop} />
                 </h2>
               </a>
