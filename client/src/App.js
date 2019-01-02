@@ -1,13 +1,10 @@
 import React, { Component } from "react";
 import { Container } from "reactstrap"
 import { Provider } from "react-redux";
+import { BrowserRouter } from "react-router-dom";
 
 import NavbarTop from "./components/NavbarTop";
-import Landing from "./components/main/Landing";
-import Section1 from "./components/main/Section1";
-import Section2 from "./components/main/Section2";
-import Section3 from "./components/main/Section3";
-import Footer from "./components/Footer";
+import Main from "./components/Main";
 
 import store from "./store";
 
@@ -18,20 +15,12 @@ class App extends Component {
   render(){
     return(
       <Provider store={store}>
-        <div className="App">
-          <NavbarTop />
-          <Container className="main" style={{ padding: "0", margin: "0" }}>
-            <header className="showcase">
-              <Landing />
-            </header>
-            <Section1 />
-            <Section2 />
-            <Section3 />
-          </Container>
-          <footer>
-            <Footer />
-          </footer>
-        </div>
+        <BrowserRouter>
+          <div className="App">
+            <NavbarTop />
+            <Main />
+          </div>
+        </BrowserRouter>
       </Provider>
     );
   }
