@@ -139,6 +139,10 @@ a:hover, a:active {
   width: 100%;
 }
 
+h3 {
+  margin-bottom: 1rem;
+}
+
 #section2 .section-text {
   display: grid;
   grid-template-columns: auto;
@@ -167,6 +171,41 @@ a:hover, a:active {
     grid-row: 1 / 3;
     padding: 1rem;
   }
+}
+
+#section3 .section-text {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#section3 .section-text .first {
+  max-width: 40rem;
+  padding: 2rem;
+}
+
+#section3 .section-text .second {
+  max-width: 40rem;
+  padding: 2rem;
+  min-width: 15rem;
+  text-align: center;
+}
+
+@media(max-width:700px) {
+  #section3 .section-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }  
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-text {
@@ -231,33 +270,33 @@ a:hover, a:active {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-evenly;
   max-width: 26rem;
-  min-width: 26rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem; 
 }
 
-@media(max-width:600px) {
-  .section-footer, .links, .addresses{
-    min-width: 0;
+.links {
+  margin-bottom: 0.5rem; 
+}
+
+.addresses {
+  margin-bottom: 0.2rem;
+}
+
+@media(max-width:640px) {
+  .section-footer{
+    padding-right: 1rem;    
+    padding-left: 1rem;
+  }
+
+  .links, .addresses{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
-
-  .links {
-    margin-bottom: 0.5rem; 
-  }
-
-  .addresses {
-    padding-bottom: 0.2rem;
-  }
-
-  .github, .inquiries, .ethereum, .bitcoin, .youtube, .twitter {
-      width: 10rem;
-    }
 }
 
-.github, .inquiries, .ethereum, .bitcoin, .youtube, .twitter{
-  width: 12rem;
+.link {
+  width: 13rem;
 }

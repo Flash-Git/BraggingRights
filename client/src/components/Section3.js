@@ -26,16 +26,26 @@ class Section3 extends Component {
             </div>
           </section>
           <section className="section-text">
-            <p>I was introduced to code when I was 17 and </p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestiae esse rem incidunt ipsa rerum nemo quod cupiditate aspernatur vel?</p>
+            <div className="first">
+              <p>
+                I was introduced to code when I was 17, programming teachers were of short supply in rural France
+                so I became one myself. After learning about if statements and for loops, I spent a damaging amount of time
+                finding out how far they could take me.
+              </p>
+              <p>I moved from Processing to real java and tried to conjur up the building blocks of things I could recognise.
+                I refused to touch dependencies and instead focused on algorithms and game design principles.
+              </p>
+            </div>
+            <div className="second">
+              <p>IMAGE</p>
+            </div>
           </section>
           <section className="section-img">
             <div className="section-imgtext">
               <a href="#section-4">
                 <h2>
                   <FontAwesomeIcon icon={faBellSlash} />
-                  &nbsp;Smth Else&nbsp;
+                  &nbsp;Developer Progression&nbsp;
                   <FontAwesomeIcon icon={faBellSlash} />
                 </h2>
               </a>

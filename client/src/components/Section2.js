@@ -30,7 +30,12 @@ class Section2 extends Component {
               <p>IMAGE OF ANOTHER IMPLEMENTATION</p>
             </div>
             <div className="second">
-              <p>It's not possible for one person to know it all but I'm now comfortable that I can quickly pick up whatever is required for a job.</p>
+              <p>
+                Web development has been around for longer than I have, it's not possible for one person to truly catch up,
+                let alone learn it all.
+                But this year I've reached a point where I can confidently say that there isn't a language,
+                tech stack or development tool that I couldn't pick up in record time if it was required of me.
+              </p>
             </div>
             <div className="third">
               <p>I put off learning more than the very basics for years. When I told people of the projects I've worked on, console outputs clearly wasn't what they had in mind.</p>

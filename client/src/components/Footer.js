@@ -20,43 +20,50 @@ class Footer extends Component {
           <Nav navbar
             style={{ width:"100%", height:"100%"}}
           >
-          <div className="section-footer">
-            <div className="links">
-              <div className="github">
-                <NavItem>
-                  <NavLink href="https://github.com/flash-git">
-                    <FontAwesomeIcon icon={faGithub} />
-                    &nbsp;Github
-                  </NavLink>
-                </NavItem>
+            <div className="section-footer">
+              <div className="links">
+                <div className="link">
+                  <NavItem>
+                    <NavLink href="https://github.com/flash-git">
+                      <FontAwesomeIcon icon={faGithub} />
+                      &nbsp;Github
+                    </NavLink>
+                  </NavItem>
+                </div>
+                <div className="link">
+                  <NavItem>
+                    <NavLink href="https://youtube.com/">
+                      <FontAwesomeIcon icon={faYoutube} />
+                      &nbsp;Youtube
+                    </NavLink>
+                  </NavItem>
+                </div>
+                <div className="link">
+                  <NavItem>
+                    <NavLink href="https://twitter.com/flashyqpt">
+                      <FontAwesomeIcon icon={faTwitter} />
+                      &nbsp;Twitter
+                    </NavLink>
+                  </NavItem>
+                </div>
+                <div className="link">
+                  <NavItem>
+                    <NavLink href="/">
+                      <FontAwesomeIcon icon={faAt} />
+                      &nbsp;Business Inquiries
+                    </NavLink>
+                  </NavItem>
+                </div>
               </div>
-              <div className="youtube">
-                <NavItem>
-                  <NavLink href="https://youtube.com/">
-                    <FontAwesomeIcon icon={faYoutube} />
-                    &nbsp;Youtube
-                  </NavLink>
-                </NavItem>
-              </div>
-              <div className="twitter">
-                <NavItem>
-                  <NavLink href="https://twitter.com/flashyqpt">
-                    <FontAwesomeIcon icon={faTwitter} />
-                    &nbsp;Twitter
-                  </NavLink>
-                </NavItem>
-              </div>
-              <div className="inquiries">
-                <NavItem>
-                  <NavLink href="/">
-                    <FontAwesomeIcon icon={faAt} />
-                    &nbsp;Business Inquiries
-                  </NavLink>
-                </NavItem>
-              </div>
-            </div>
-            <div className="addresses">
-              <div className="ethereum">
+              <div className="addresses">
+              <div className="link">
+                  <NavItem>
+                    <NavLink href="/">
+                      <FontAwesomeIcon icon={faEthereum} />
+                      &nbsp;Ethereum Address
+                    </NavLink>
+                  </NavItem>
+                </div><div className="link">
                   <NavItem>
                     <NavLink href="/">
                       <FontAwesomeIcon icon={faEthereum} />
@@ -64,7 +71,7 @@ class Footer extends Component {
                     </NavLink>
                   </NavItem>
                 </div>
-                <div className="bitcoin">
+                <div className="link">
                   <NavItem>
                     <NavLink href="/">
                       <FontAwesomeIcon icon={faBitcoin} />
