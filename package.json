@@ -18,12 +18,12 @@
   "author": "Flash",
   "license": "MIT",
   "dependencies": {
-    "concurrently": "^4.1.0",
-    "express": "^4.16.4",
-    "mongoose": "^5.3.15"
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.7"
+    "nodemon": "^1.19.1"
   },
   "bugs": {
     "url": "https://github.com/Flash-Git/BraggingRights/issues"
